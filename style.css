@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+
+
+
+
+
 :root{
---thistle: #cdb4dbff;
---fairy-tale: #ffc8ddff;
---carnation-pink: #ffafccff;
---uranian-blue: #bde0feff;
---light-sky-blue: #a2d2ffff;
+  --roxo: #cdb4dbff;
+    --rosa: #ffc8ddff;
+    --pink: #ffafccff;
+    --azul: #bde0feff;
+    --agua: #a2d2ffff;
+    --fonte-titulo:"Pacifico", cursive;
+    --fonte-texto: "Dancing Script", cursive;
 }
+ 
+
+body{
+background-color: var(--roxo);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+   display: flex;
+
+
+
+
